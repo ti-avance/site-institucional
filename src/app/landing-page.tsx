@@ -1,11 +1,19 @@
 import React from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 export default function LandingPage() {
   return (
     <div className="min-h-screen flex flex-col bg-ghost-white text-marian-blue">
-      <Header />
+      {/* Header */}
+      <header className="bg-marian-blue px-8 py-4 flex justify-between items-center">
+        <div className="font-bold text-lg text-white">AVANCE CONSULTORIA JÚNIOR</div>
+        <nav className="flex items-center gap-4">
+          <a href="#" className="font-bold text-columbia-blue hover:text-african-violet transition-colors">Home</a>
+          <a href="#" className="font-bold text-columbia-blue hover:text-african-violet transition-colors">Serviços</a>
+          <a href="#" className="font-bold text-columbia-blue hover:text-african-violet transition-colors">Contato</a>
+          <a href="#" className="font-bold text-columbia-blue hover:text-african-violet transition-colors">Blog</a>
+          <button className="ml-4 px-3 py-1 bg-african-violet text-white rounded hover:bg-marian-blue transition-colors">Login</button>
+        </nav>
+      </header>
 
       {/* Hero Section */}
       <section className="hero flex flex-col md:flex-row items-center justify-around py-16 px-5 bg-columbia-blue gap-8">
@@ -13,7 +21,7 @@ export default function LandingPage() {
           <h1 className="text-3xl md:text-4xl font-bold mb-2 text-marian-blue">Empresa Júnior de Consultoria Empresarial, Jurídica e Comunicação</h1>
           <p className="text-lg text-african-violet">Mais de 80 projetos desde 2007</p>
         </div>
-        <img src="https://placehold.co/300x200?text=Hero" alt="Imagem hero" className="max-w-xs rounded shadow bg-white" />
+        <img src="https://via.placeholder.com/300x200" alt="Imagem hero" className="max-w-xs rounded shadow bg-white" />
       </section>
 
       {/* Services Section */}
@@ -22,7 +30,7 @@ export default function LandingPage() {
         <div className="cards flex flex-col md:flex-row justify-center gap-8">
           {[1,2,3].map((i) => (
             <div key={i} className="card bg-white border border-columbia-blue rounded-lg overflow-hidden p-6 w-full md:w-72 text-center shadow">
-              <img src="https://placehold.co/200x150?text=Servi%C3%A7o" alt="Serviço" className="w-full h-auto mb-4 rounded bg-ghost-white" />
+              <img src="https://via.placeholder.com/200x150" alt="" className="w-full h-auto mb-4 rounded bg-ghost-white" />
               <h4 className="font-semibold text-lg mb-2 text-african-violet">Subheading</h4>
               <p className="text-marian-blue">Body text for whatever you’d like to add more to the subheading.</p>
             </div>
@@ -35,7 +43,7 @@ export default function LandingPage() {
         <h2 className="section-title text-center text-2xl md:text-3xl font-semibold mb-8 text-marian-blue">Confira nossos clientes</h2>
         <div className="carousel flex items-center gap-8 overflow-x-auto justify-center">
           {[1,2,3].map((i) => (
-            <img key={i} src={`https://placehold.co/100x100?text=Cliente+${i}`} alt={`Cliente ${i}`} className="h-24 w-24 object-cover rounded-full shadow bg-white" />
+            <img key={i} src={`https://via.placeholder.com/100x100`} alt={`Cliente ${i}`} className="h-24 w-24 object-cover rounded-full shadow bg-white" />
           ))}
         </div>
       </section>
@@ -44,7 +52,7 @@ export default function LandingPage() {
       <section className="team bg-columbia-blue py-12 px-5 text-center">
         <h2 className="section-title text-2xl md:text-3xl font-semibold mb-8 text-marian-blue">Nossa equipe</h2>
         <div className="flex flex-col items-center">
-          <img src="https://placehold.co/150x150?text=Equipe" alt="Equipe" className="w-36 h-36 rounded-full object-cover mb-4 bg-white" />
+          <img src="https://via.placeholder.com/150" alt="Equipe" className="w-36 h-36 rounded-full object-cover mb-4 bg-white" />
           <h4 className="font-semibold text-lg mb-2 text-african-violet">Subheading</h4>
           <p className="text-marian-blue">Body text for whatever you’d like to add more to the subheading.</p>
         </div>
@@ -68,7 +76,10 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <Footer />
+      {/* Footer */}
+      <footer className="bg-marian-blue text-center py-6 text-sm mt-auto text-white">
+        <p>© 2025 Avance Consultoria Júnior. Copyright e todos os direitos reservados</p>
+      </footer>
     </div>
   );
 }

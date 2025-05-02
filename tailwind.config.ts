@@ -23,35 +23,41 @@ const config = {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        foreground: "#000000", // Use custom black for strong contrast
         primary: {
           DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          foreground: "#000000", // Use custom black for strong contrast
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          foreground: "#000000", // Use custom black for strong contrast
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
+          foreground: "#000000", // Use custom black for strong contrast
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          foreground: "#000000", // Use custom black for strong contrast
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+          foreground: "#000000", // Use custom black for strong contrast
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          foreground: "#000000", // Use custom black for strong contrast
         },
         card: {
           DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
+          foreground: "#000000", // Use custom black for strong contrast
         },
+        white: "#FFFFFF",
+        "marian-blue": "#2C4278",
+        "ghost-white": "#E7E9F1",
+        "african-violet": "#9A70AE",
+        "columbia-blue": "#B9D9E9",
+        contrast: "#000000", // Custom black for contrast
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -1,4 +1,4 @@
-import { createClient } from "@/src/utils/supabase/server";
+import { createClient } from "@/utils/supabase/server";
 
 export default async function ProtectedPage() {
   const supabase = await createClient();
