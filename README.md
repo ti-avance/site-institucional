@@ -39,12 +39,20 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
 - `pnpm lint` — Checa qualidade do código com ESLint
 - `pnpm format` — Formata o código com Prettier
 - `pnpm test` — Executa testes unitários com Jest
+- `pnpm test:watch` — Executa testes unitários com Jest em modo de observação
+
 
 ## Testes
 Os testes ficam em `src/__tests__/`. Para rodar:
 ```bash
 pnpm test
 ```
+
+Para rodar os testes em modo de observação:
+```bash
+pnpm test:watch
+```
+
 
 ## Contribuição
 1. Faça um fork do projeto

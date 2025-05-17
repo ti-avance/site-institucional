@@ -1,3 +1,4 @@
+
 export default function Hero() {
   return (
     <section className="hero flex flex-col md:flex-row items-center justify-around py-16 px-5 bg-columbia-blue gap-8">

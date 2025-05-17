@@ -21,6 +21,12 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <div style={{ position: "fixed", top: 16, right: 16, zIndex: 1000 }}>
+            <ThemeSwitcher />
+          </div>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

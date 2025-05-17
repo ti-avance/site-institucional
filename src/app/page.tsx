@@ -4,6 +4,8 @@ import Services from "@/components/Services"
 import Clients from "@/components/Clients"
 import Team from "@/components/Team"
 import Contact from "@/components/Contact"
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function LandingPage() {
   return (
@@ -13,6 +15,8 @@ export default function LandingPage() {
       <Clients />
       <Team />
       <Contact />
+      <Header />
+      <Footer />
     </div>
   );
 }
