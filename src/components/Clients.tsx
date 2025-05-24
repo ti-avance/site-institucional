@@ -1,4 +1,4 @@
-export default function Clients (){
+export default function Clients(){
     return(
     <section className="clients py-12 px-5 bg-ghost-white">
         <h2 className="section-title text-center text-2xl md:text-3xl font-semibold mb-8 text-marian-blue">Confira nossos clientes</h2>
