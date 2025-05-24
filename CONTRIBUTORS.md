@@ -2,8 +2,7 @@
     
     ## Equipe de Desenvolvimento
     
-    * **Myke Matos** - Gerente de Projeto
-    * **Pedro Henrique** - Líder Back-End
-    * **Pedro Mezadre** - Líder Front-End
-    * **João Guilherme** - Membro Back-End
-    * **Gustavo Moura** - Auxiliar Back-End
+    * **Myke Matos** - Lider Técnico
+    * **Pedro Henrique** - Backend
+    * **Pedro Mezadre** - Frontend
+    * **João Guilherme** - Júnior
