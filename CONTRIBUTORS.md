@@ -6,3 +6,4 @@
     * **Pedro Henrique** - Líder Back-End
     * **Pedro Mezadre** - Líder Front-End
     * **João Guilherme** - Membro Back-End
+
