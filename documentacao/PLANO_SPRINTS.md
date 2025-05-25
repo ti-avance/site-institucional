@@ -14,13 +14,13 @@
 Configuração de base, padronização de UI, início do analytics e integração inicial.
 
 **Tarefas:**
-- [Pedro Mezadre, Myke Matos] Instalar e configurar shadcn-ui; criar primeiro componente padrão; documentar padrão de uso
-- [Pedro Henrique] Instalar e configurar PostHog; criar conta/workspace; instrumentar páginas principais
-- [João Guilherme] Apoiar documentação dos padrões (shadcn-ui, PostHog); checklist de setup do projeto
+- [Pedro Mezadre, Myke Matos] Instalar e configurar shadcn@latest; criar primeiro componente padrão; documentar padrão de uso
+- [Pedro Henrique] Instalar e configurar Supabase; Adicionar funcionalidades internas para membros autenticados (documentos, recursos, etc).
+- [João Guilherme] Apoiar documentação dos padrões (shadcn, Supabase); checklist de setup do projeto
 - [Myke Matos] Revisão técnica, desbloqueio de impedimentos, apoio na configuração e no front end
 
 **Critérios de conclusão:**
-- shadcn-ui e PostHog funcionando no projeto
+- shadcn@latest e Supabase funcionando no projeto
 - Documentação básica dos padrões criada
 - Time alinhado com o fluxo de trabalho
 
@@ -33,13 +33,13 @@ Exibir dados reais de setores, membros e serviços; estruturar páginas principa
 
 **Tarefas:**
 - [Pedro Henrique] Mapear endpoints no Supabase; implementar fetch de dados; tratar loading/erros
-- [Pedro Mezadre, Myke Matos] Criar páginas: inicial, setores, membros, serviços; usar componentes shadcn-ui
+- [Pedro Mezadre, Myke Matos] Criar páginas: inicial, setores, membros, serviços; usar componentes shadcn@latest
 - [João Guilherme] Validar dados exibidos; apoiar testes e revisão de conteúdo
 - [Myke Matos] Revisão técnica, apoio em integrações, acompanhamento do progresso e no front end
 
 **Critérios de conclusão:**
 - Dados reais exibidos nas páginas principais
-- Layout padronizado com shadcn-ui
+- Layout padronizado com shadcn@latest
 - Erros e estados de loading tratados
 
 ---
