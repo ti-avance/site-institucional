@@ -3,7 +3,7 @@
 ## Estrutura do Projeto
 
 - **Stack:** Next.js, TypeScript, Tailwind, Supabase
-- **UI:** shadcn-ui adotado para padronização e agilidade na criação de componentes
+- **UI:** shadcn@latest (CLI) adotado para padronização e agilidade na criação de componentes
 - **Analytics:** PostHog adotado para monitoramento de uso e métricas de produto
 - **Testes:** Jest configurado, pasta de testes presente
 - **Lint/Format:** ESLint e Prettier configurados
@@ -12,9 +12,9 @@
 
 ### Novas ferramentas adotadas
 
-- **shadcn-ui:** Biblioteca moderna de componentes React/Next.js, baseada em Radix UI e TailwindCSS.  
+- **shadcn@latest:** CLI moderna para geração de componentes React/Next.js, baseada em Radix UI e TailwindCSS.  
   - *Benefícios:* Agilidade no desenvolvimento, consistência visual, acessibilidade, fácil customização.
-  - *Próximos passos:* Padronizar novos componentes e migrar gradualmente a UI para shadcn-ui.
+  - *Próximos passos:* Padronizar novos componentes e migrar gradualmente a UI utilizando a CLI shadcn@latest.
 
 - **PostHog:** Plataforma open source de analytics e product analytics.
   - *Benefícios:* Monitoramento de uso, métricas de produto, eventos customizados, privacidade (LGPD), decisões baseadas em dados.
@@ -82,4 +82,6 @@ O projeto já possui:
 
 ---
 
-*Documento gerado automaticamente para acompanhamento do progresso do desenvolvimento.*
+**Changelog 24/05**
+
+Adicionado documentaçao do projeto, sprints, tutoriais e backlog na raiz do projeto.

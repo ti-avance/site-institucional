@@ -2,15 +2,15 @@
 
 ---
 
-## [URGENTE] Adotar shadcn-ui no projeto  
+## [URGENTE] Adotar shadcn@latest no projeto  
 **Depende de:** nada  
 **Descrição:**  
-Padronizar e acelerar a criação de componentes de interface usando a biblioteca shadcn-ui.
+Padronizar e acelerar a criação de componentes de interface usando a CLI shadcn@latest.
 
 **Tasklist:**
-- [ ] Instalar shadcn-ui e dependências
+- [ ] Instalar shadcn@latest e dependências (`npx shadcn@latest init`)
 - [ ] Configurar integração com Tailwind
-- [ ] Criar primeiro componente usando shadcn-ui
+- [ ] Criar primeiro componente usando shadcn@latest (`npx shadcn@latest add <componente>`)
 - [ ] Documentar padrão de uso para o time
 - [ ] Migrar gradualmente componentes existentes
 
@@ -128,7 +128,7 @@ Coletar e exibir depoimentos de clientes e parceiros.
 ---
 
 ## [BAIXA] Animações e interatividade  
-**Depende de:** UI padronizada (shadcn-ui)  
+**Depende de:** UI padronizada (shadcn@latest)  
 **Descrição:**  
 Melhorar a experiência visual do site com animações e microinterações.
 
