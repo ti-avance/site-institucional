@@ -72,9 +72,9 @@ O desenvolvimento será organizado em sprints semanais, com dedicação de 1-2h/
 ### Sprint 1 — Kickoff e Fundamentos
 - **Objetivo:** Configuração de base, padronização de UI, início do analytics e integração inicial.
 - **Tarefas:**
-  - [Pedro Mezadre, Myke Matos] Instalar e configurar shadcn-ui; criar primeiro componente padrão; documentar padrão de uso
+- [Pedro Mezadre, Myke Matos] Instalar e configurar shadcn@latest (`npx shadcn@latest init`); criar primeiro componente padrão (`npx shadcn@latest add <componente>`); documentar padrão de uso
   - [Pedro Henrique] Instalar e configurar PostHog; criar conta/workspace; instrumentar páginas principais
-  - [João Guilherme] Apoiar documentação dos padrões (shadcn-ui, PostHog); checklist de setup do projeto
+  - [João Guilherme] Apoiar documentação dos padrões (shadcn-ui, Supabase); checklist de setup do projeto
   - [Myke Matos] Revisão técnica, desbloqueio de impedimentos, apoio na configuração e no front end
 
 ### Sprint 2 — Integração de Dados e Estrutura MVP
@@ -117,7 +117,7 @@ O desenvolvimento será organizado em sprints semanais, com dedicação de 1-2h/
    - Testes e boas práticas — configurados
 
 2. **Adoção de novas ferramentas**
-   - Proposta de inclusão do shadcn-ui (biblioteca de componentes UI) para acelerar e padronizar a criação de interfaces.
+   - Proposta de inclusão do shadcn@latest (CLI de componentes UI) para acelerar e padronizar a criação de interfaces.
    - Proposta de inclusão do PostHog (analytics) para monitoramento de uso, métricas de produto e tomada de decisão baseada em dados.
    - Benefícios: agilidade, consistência visual, acessibilidade, instrumentação de analytics, decisões baseadas em dados.
    - Próximos passos: aprovar inclusão, definir responsáveis pela configuração inicial, planejar padronização dos novos componentes e instrumentação básica de analytics.
@@ -156,7 +156,7 @@ O desenvolvimento será organizado em sprints semanais, com dedicação de 1-2h/
 - Atualizar o Trello/board com microtarefas e responsáveis
 - Realizar checkpoints de progresso no grupo (WhatsApp/Discord)
 - Reportar bloqueios imediatamente ao gestor (Myke)
-- Manter documentação e convenções atualizadas
+- Manter documentação e convenções atualizadas (incluindo uso do shadcn@latest)
 - Preparar demonstração do MVP para a próxima reunião
 
 ---
